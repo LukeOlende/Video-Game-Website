@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+
+.navbar{
+    background-color: transparent;
+    position: relative;
+    z-index: 4;
+}
+
+.nav-link{
+    font-size: 14px;
+}
+
+main{
+    position: relative;
+    top: 0%;
+    z-index: 0;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    width: 10%;
+}
+
+.site-wrapper{
+    height: 640px;
+}
+
+.card, .list-group-item{
+    background-color: black;
+}
+
+.parallax{
+    background-image: url('stock/FIFA22.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.heading1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .paragraph1 {
+    color: #ffffff;
+    margin-top: 10px;
+  }
+  .subbtn {
+    margin-top: 10px;
+    background-color: #ffffff;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+
+@media only screen and (max-device-width:320px){
+    .site-wrapper{
+        height: 200px;
+    }
+    .col-md-4{
+        margin: 5% 0%;
+    }
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+}
